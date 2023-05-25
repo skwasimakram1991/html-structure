@@ -6,36 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-    <link rel="icon" type="image/png" href="images/fab.png">
+    <link rel="icon" type="image/png" href="images/logo.svg">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/slimNav_sk78.css">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
-    <link href="css/slimNav_sk78.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.theme.default.css" type="text/css">
+
 </head>
 
-
-
 <body>
+
     <header>
-        <div class="top-bar">
+        <div class="top-part">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-7">
-                        <ul>
-                            <li>
-                                <a href="#"><i class="fas fa-map-marker-alt"></i> No 22. Market Rd, California</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fas fa-phone-volume"></i> 245 253 2125</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-5">
-                        <h5><a href="#"><i class="fas fa-paper-plane"></i>info@contact.com</a></h5>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>FOR LIMITED TIME ONLY GET 15%-75% OFF ON EVERYTHING + FREE SHIPPING. CODE: SALE</p>
                     </div>
                 </div>
             </div>
@@ -43,33 +34,50 @@
         <div class="menu-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-4 logo-part">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <div class="col-lg-2 col-4 main-logo">
+                        <a href="index.php"><img src="images/logo.svg" alt=""></a>
                     </div>
-                    <div class="col-lg-9 col-md-8 menu-sec text-right">
+                    <div class="col-lg-8 col-8 menu-sec text-end">
                         <div id="navigation">
                             <nav>
                                 <ul>
-                                    <li class="current-menu-item"><a href="#">home</a></li>
-                                    <li><a href="#">ABOUT</a></li>
-                                    <li><a href="#">TEAM</a></li>
-                                    <li><a href="#">PORTFOLIO</a></li>
-                                    <li><a href="#">CONTACT US</a></li>
+                                    <li class="current-menu-items"><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">New In</a></li>
+                                    <li><a href="#">Bags</a></li>
+                                    <li><a href="#">Shoes</a></li>
+                                    <li><a href="#">Sale</a></li>
                                 </ul>
                             </nav>
                         </div>
+
+                    </div>
+                    <div class="col-lg-2">
+                        <ul class="user-sec">
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#myModal"><img
+                                        src="images/src-icon.svg" alt=""></a></li>
+                            <li><a href="#"><img src="images/cart-icon.svg" alt=""></a></li>
+                            <li><a href="#"><img src="images/user-icon.svg" alt=""></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         </div>
     </header>
+    <div id="cursor"></div>
 
-	<div class="social-tabs">
-		<ul>
-			<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-			<li><span>Follow us</span></li>
-		</ul>
-	</div>
+    <!-- The Modal -->
+    <div class="modal fade src-pop" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="">
+                        <input type="text" placeholder="Search ...">
+                        <input type="submit" value="">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
